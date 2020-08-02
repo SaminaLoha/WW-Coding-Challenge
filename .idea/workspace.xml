@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b21a89a1-093a-4bbd-9bd3-56a290fa33ff" name="Default Changelist" comment="" />
+    <list default="true" id="b21a89a1-093a-4bbd-9bd3-56a290fa33ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.docx" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/logfile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/BaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/BaseClass.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/WW-Coding-Challenge" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fScinWB7LtjDH0TfilgXOUX9l9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonSelfFramework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="Python tests.pytest in test_end_2_end.py">
@@ -82,8 +88,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_end_2_end.py" />
       <item itemvalue="Python.ww_test" />
+      <item itemvalue="Python tests.pytest in test_end_2_end.py" />
     </list>
     <recent_temporary>
       <list>
@@ -117,10 +123,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="208" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596220533780">
+    <state x="208" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596318954560">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="208" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1596220533780" />
+    <state x="208" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1596318954560" />
     <state x="488" y="243" key="EnvironmentVariablesDialog" timestamp="1596219883080">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

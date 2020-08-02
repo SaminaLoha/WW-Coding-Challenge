@@ -2,6 +2,7 @@
 # It contains a methods for configuring logging and another method to wait till an elements presence is located
 import inspect
 import logging
+import os
 
 import pytest
 from selenium.webdriver.support import expected_conditions
@@ -15,7 +16,8 @@ class BaseClass:
         loggername = inspect.stack()[1][3]  # this will give test case name
         logger = logging.getLogger(loggername)
 
-        fileHandler = logging.FileHandler('logfile.log')
+        logFilePath = os.path.dirname(__file__) + "\\logfile.log"
+        fileHandler = logging.FileHandler()
         # %(variables)s - this means it will get evaluated at runtime
         formatter = logging.Formatter("%(asctime)s :%(levelname)s :%(name)s :%(message)s")
         fileHandler.setFormatter(formatter)

@@ -1,0 +1,11 @@
+2020-08-02 16:20:57,753 :INFO :test_verifyHomePageTitle :Verifying the Home page link
+2020-08-02 16:20:58,757 :INFO :test_verifyHomePageTitle :Verification Passed: Home Page title is 'WW (Weight Watchers): Weight Loss & Wellness Help'
+2020-08-02 16:20:58,784 :INFO :test_studioSelectionOperations :Verifying the Workshop page link
+2020-08-02 16:21:03,100 :INFO :test_studioSelectionOperations :Verification Passed: Search Studio Page title is 'Find WW\xa0Studios & Meetings Near You | WW USA'
+2020-08-02 16:21:05,863 :INFO :test_studioSelectionOperations :Title of first studio searched is 'WW Studio Flatiron'
+2020-08-02 16:21:05,863 :INFO :test_studioSelectionOperations :Distance of first studio searched is '0.49 mi'
+2020-08-02 16:21:08,786 :INFO :test_studioSelectionOperations :Displayed location name 'WW Studio Flatiron'is same as first searched name 'WW Studio Flatiron'
+2020-08-02 16:21:08,786 :INFO :test_studioSelectionOperations :Getting details for appointments on 'THU' 
+2020-08-02 16:21:10,347 :INFO :printMeetings :'STEVEN H.'-'2'
+2020-08-02 16:21:10,347 :INFO :printMeetings :'DIANE M.'-'1'
+2020-08-02 16:21:10,348 :INFO :printMeetings :'MINDI K.'-'2'
