@@ -16,9 +16,12 @@ class BaseClass:
         loggername = inspect.stack()[1][3]  # this will give test case name
         logger = logging.getLogger(loggername)
 
-        logFilePath = os.path.dirname(__file__) + "\\logfile.log"
-        fileHandler = logging.FileHandler()
-        # %(variables)s - this means it will get evaluated at runtime
+        if os.name != 'nt':
+            logFilePath = os.getcwd() + "/logfile.log"
+        else:
+            logFilePath = os.getcwd() + "\\logfile.log"
+        fileHandler = logging.FileHandler(logFilePath)
+        # %(variables)s - this means it wil get evaluated at runtime
         formatter = logging.Formatter("%(asctime)s :%(levelname)s :%(name)s :%(message)s")
         fileHandler.setFormatter(formatter)
         logger.addHandler(fileHandler)  # filehandler object, in which file to print
